@@ -111,11 +111,12 @@ body.dark .text-body{
 
 .img-grid-catalogo:hover{
     border-radius: 22px;
-    width: 92%;
-    height: 30%;
+    width: 91%;
+    height: 31%;
     opacity: 0.9;
     border-right: 5px solid #6e763f;
     border-bottom: 5px solid #6e763f;
+    cursor: pointer;
 }
 
 @media (min-width: 280px) and (max-width: 450px){ /* Inserindo a responsividade nas imagens */
@@ -158,7 +159,7 @@ body.dark #grid-catalogo{
 /* INÍCIO DO FOOTER */
 
 footer{
-    background-color:  #f9f4ee;
+    background-color:  #f4efe6;
     transition: .5s;
 }
 
@@ -169,7 +170,7 @@ body.dark footer{
 
 .grid-footer-index{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     grid-gap: 1px;
     max-width: 1200px;
     margin: 0 auto;
@@ -179,6 +180,7 @@ body.dark footer{
     text-align: center;
     padding: 2px;
     text-align: left;
+    cursor: pointer;
 }
 
 .text-footer{
@@ -189,6 +191,23 @@ body.dark footer{
 
 body.dark .text-footer{
     color: #faf5ef;
+}
+
+hr{
+    height: 1.5px;
+    background-color: #151e08;
+    width: 20%;
+    height: 3%;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+body.dark hr{
+    background-color: #faf5ef;
+}
+
+.grid-footer-inside:hover hr{
+    width: 55%;
 }
 
 /* FIM DO FOOTER */
