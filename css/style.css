@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+/* INÍCIO DO HEADER */
+
 header{
     display: flex;
     align-items: center;
@@ -19,6 +21,10 @@ body.dark header{
     background-color: #151e08;
     color: #faf5ef;
 }
+
+/* FIM DO HEADER */
+
+/* INÍCIO DO CONTEÚDO */
 
 body{
     background-color: #faf5ef;
@@ -63,6 +69,8 @@ body.dark .text-body{
     color: #faf5ef;
 }
 
+/* INÍCIO DO "BOTÃO DO MODO ESCURO E CLARO */
+
 .trilho{
     width: 42px;
     height: 18px;
@@ -92,10 +100,22 @@ body.dark .text-body{
     background-color: #000000;
 }
 
+/* FIM DO "BOTÃO DO MODO ESCURO E CLARO */
+
 .img-grid-catalogo{
     border-radius: 20px;
     width: 90%;
     height: 30%;
+    border-bottom: 2.5px solid #6e763f;
+}
+
+.img-grid-catalogo:hover{
+    border-radius: 22px;
+    width: 92%;
+    height: 30%;
+    opacity: 0.9;
+    border-right: 5px solid #6e763f;
+    border-bottom: 5px solid #6e763f;
 }
 
 @media (min-width: 280px) and (max-width: 450px){ /* Inserindo a responsividade nas imagens */
@@ -104,14 +124,6 @@ body.dark .text-body{
         width: 90%;
         height: 30%;
     }
-}
-
-.img-grid-catalogo{
-    border-radius: 20px;
-    width: 90%;
-    height: 30%;
-    opacity: 0.9;
-    border-bottom: 2.5px solid #6e763f;
 }
 
 figure{
@@ -140,6 +152,10 @@ body.dark #grid-catalogo{
     background-color: #151e08;
     color: #faf5ef;
 }
+
+/* FIM DO CONTEÚDO */
+
+/* INÍCIO DO FOOTER */
 
 footer{
     background-color:  #f9f4ee;
@@ -174,3 +190,5 @@ body.dark footer{
 body.dark .text-footer{
     color: #faf5ef;
 }
+
+/* FIM DO FOOTER */
