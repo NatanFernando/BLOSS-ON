@@ -4,6 +4,93 @@
     padding: 0;
 }
 
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f9f4ee;
+    justify-content: flex-end;
+    transition: .5s;
+    color: #141c08;
+    padding-top: 10px;
+}
+
+body.dark header{
+    background-color: #151e08;
+    color: #faf5ef;
+}
+
+body{
+    background-color: #faf5ef;
+    transition: .5s;
+    color: #151e08;
+}
+
+body.dark{
+    background-color: #151e08;
+    color: #faf5ef;
+}
+
+h1{
+    text-align: center;
+}
+
+body.dark h1{
+    color: #ffffff;
+}
+
+h2{
+    text-align: center;
+}
+
+body.dark h2{
+    color: #ffffff;
+}
+
+body.dark h5{
+    color: #ffffff;
+}
+
+p{
+    color: #000000;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body.dark p{
+    color: #faf5ef;
+}
+
+.trilho{
+    width: 42px;
+    height: 18px;
+    background-color: #c3c3c3;
+    border-radius: 150px;
+    position: relative;
+    cursor: pointer;
+}
+
+.trilho .indicador{
+    width: 18px;
+    height: 18px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: .5s;
+}
+
+.trilho.dark{
+    background-color: #4d4d4d;
+}
+
+.trilho.dark .indicador{
+    left: 24px;
+    background-color: #000000;
+}
+
 .img-grid-catalogo{
     border-radius: 20px;
     width: 90%;
@@ -31,11 +118,26 @@ figure{
 }
 
 .grid-catalogo-index div{
-    background-color: #fff;
     text-align: center;
     padding: 2px;
 }
 
 #grid-catalogo{
-    background-color: #dcdcdc;
+    background-color: #faf5ef;
+        transition: .5s;
+}
+
+body.dark #grid-catalogo{
+    background-color: #151e08;
+    color: #faf5ef;
+}
+
+footer{
+    background-color:  #f9f4ee;
+    transition: .5s;
+}
+
+body.dark footer{
+    background-color: #151e08;
+    color: #faf5ef;
 }
