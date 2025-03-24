@@ -106,6 +106,14 @@ body.dark .text-body{
     }
 }
 
+.img-grid-catalogo{
+    border-radius: 20px;
+    width: 90%;
+    height: 30%;
+    opacity: 0.9;
+    border-bottom: 2.5px solid #6e763f;
+}
+
 figure{
     text-align: center;
 }
@@ -127,8 +135,6 @@ figure{
     background-color: #faf5ef;
         transition: .5s;
 }
-
-
 
 body.dark #grid-catalogo{
     background-color: #151e08;
