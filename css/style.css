@@ -51,14 +51,15 @@ body.dark h5{
     color: #ffffff;
 }
 
-p{
+.text-body{
     color: #000000;
     text-align: justify;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-size: 16;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
-body.dark p{
+body.dark .text-body{
     color: #faf5ef;
 }
 
@@ -139,5 +140,29 @@ footer{
 
 body.dark footer{
     background-color: #151e08;
+    color: #faf5ef;
+}
+
+.grid-footer-index{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    grid-gap: 1px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-footer-index div{
+    text-align: center;
+    padding: 2px;
+    text-align: left;
+}
+
+.text-footer{
+    color: #000000;
+    text-align: left;
+    font-size: 12px;
+}
+
+body.dark .text-footer{
     color: #faf5ef;
 }
