@@ -15,6 +15,9 @@ header{
     transition: .5s;
     color: #141c08;
     padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    column-gap: 5px;
 }
 
 body.dark header{
@@ -39,6 +42,7 @@ body.dark{
 
 h1{
     text-align: center;
+    font-size: 50px;
 }
 
 body.dark h1{
@@ -74,7 +78,7 @@ body.dark .text-body{
 .trilho{
     width: 42px;
     height: 18px;
-    background-color: #c3c3c3;
+    background-color: #151e08;
     border-radius: 150px;
     position: relative;
     cursor: pointer;
@@ -83,7 +87,7 @@ body.dark .text-body{
 .trilho .indicador{
     width: 18px;
     height: 18px;
-    background-color: #ffffff;
+    background-color: #faf5ef;
     border-radius: 50%;
     transform: scale(.9);
     position: absolute;
@@ -92,12 +96,12 @@ body.dark .text-body{
 }
 
 .trilho.dark{
-    background-color: #4d4d4d;
+    background-color: #faf5ef;
 }
 
 .trilho.dark .indicador{
     left: 24px;
-    background-color: #000000;
+    background-color: #151e08;
 }
 
 /* FIM DO "BOTÃO DO MODO ESCURO E CLARO */
@@ -129,6 +133,11 @@ body.dark .text-body{
 
 figure{
     text-align: center;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 14px;
 }
 
 .grid-catalogo-index{
@@ -164,7 +173,7 @@ footer{
 }
 
 body.dark footer{
-    background-color: #151e08;
+    background-color: #3f4b15;
     color: #faf5ef;
 }
 
@@ -172,6 +181,7 @@ body.dark footer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     grid-gap: 1px;
+    row-gap: 10px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -180,13 +190,17 @@ body.dark footer{
     text-align: center;
     padding: 2px;
     text-align: left;
-    cursor: pointer;
 }
 
 .text-footer{
     color: #000000;
     text-align: left;
     font-size: 12px;
+    text-decoration: none;
+}
+
+.text-footer:hover{
+    text-decoration:underline;
 }
 
 body.dark .text-footer{
@@ -194,10 +208,9 @@ body.dark .text-footer{
 }
 
 hr{
-    height: 1.5px;
     background-color: #151e08;
     width: 20%;
-    height: 3%;
+    height: 2px;
     border-radius: 20px;
     transition: 1s;
 }
