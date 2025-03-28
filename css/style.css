@@ -127,6 +127,29 @@ body.dark p{
 
 /* FIM DO "BOTÃO DO MODO ESCURO E CLARO */
 
+.grid-catalogo-index{
+    display: grid; /* Mostra como os conteúdos serão dispostos na página. */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* FR - Ver formatação da tela*/
+    grid-gap: 1px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-catalogo-index div{
+    text-align: center;
+    padding: 2px;
+}
+
+#grid-catalogo{
+    background-color: #faf5ef;
+        transition: .5s;
+}
+
+body.dark #grid-catalogo{
+    background-color: #151e08;
+    color: #faf5ef;
+}
+
 .img-grid-catalogo{
     border-radius: 20px;
     width: 90%;
@@ -159,29 +182,6 @@ figure{
 figcaption{
     text-align: center;
     font-size: 14px;
-}
-
-.grid-catalogo-index{
-    display: grid; /* Mostra como os conteúdos serão dispostos na página. */
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* FR - Ver formatação da tela*/
-    grid-gap: 1px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.grid-catalogo-index div{
-    text-align: center;
-    padding: 2px;
-}
-
-#grid-catalogo{
-    background-color: #faf5ef;
-        transition: .5s;
-}
-
-body.dark #grid-catalogo{
-    background-color: #151e08;
-    color: #faf5ef;
 }
 
 /* FIM DO CONTEÚDO */
@@ -261,4 +261,37 @@ body.dark hr{
 #btn-voltar:hover{
     height: 22px;
     width: 77px;
+}
+
+.containersPag2 {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    align-items: center;
+    max-width: 1200px;
+    height: 450px;
+    margin: auto;
+}
+
+.img-grid-catalagoPag2{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.img-grid-catalagoPag2:hover{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+@media (min-width: 300px) and (max-width: 600px){
+    .containersPag2{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 1500px){
+    .img-grid-catalagoPag2{
+        width: 90%;
+        height: 30%;
+    }
 }
