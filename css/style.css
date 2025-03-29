@@ -114,6 +114,7 @@ body.dark .text-body{
 p{
     text-align: center;
     color: #000000;
+    padding-top: 10px;
 }
 
 body.dark p{
@@ -279,20 +280,20 @@ body.dark hr{
 /* CONFIGURAÇÕES ESPECIFICAS DA PÁGINA 02 */
 
 #btn-voltar{
-    height: 40px;
+    height: 32px;
     width: 150px;
-    border-radius: 20px;
+    border-radius: 10px;
     color: #faf5ef;
     background-color: #151e08;
     cursor: pointer;
     align-items: center;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #btn-voltar:hover{
-    height: 42px;
-    width: 152px;
-    opacity: 0.9;
+    height: 35px;
+    width: 151px;
+    opacity: 0.8;
 }
 
 body.dark #btn-voltar{
@@ -306,7 +307,7 @@ body.dark #btn-voltar{
     overflow-x: auto;
     align-items: center;
     max-width: 1200px;
-    height: 475px;
+    height: 440px;
     margin: auto;
 }
 
