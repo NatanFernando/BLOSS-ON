@@ -99,6 +99,33 @@ body.dark h3{
     color: #ffffff;
 }
 
+h4{
+    padding-left: 19%;
+    text-align: left;
+}
+
+body.dark h3{
+    color: #ffffff;
+}
+
+ol{
+    padding-left: 20%;
+    text-align: left;
+}
+
+body.dark ol{
+    color: #ffffff;
+}
+
+#text-list{
+    text-align: justify;
+    padding-left: 19%;
+}
+
+body.dark #text-list{
+    color: #faf5ef;
+}
+
 .text-body{
     color: #000000;
     text-align: justify;
