@@ -243,7 +243,7 @@ figcaption{
 /* INÍCIO DO FOOTER */
 
 footer{
-    background-color:  #f4efe6;
+    background-color: #f4efe6;
     transition: .5s;
 }
 
@@ -311,7 +311,7 @@ body.dark hr{
     width: 150px;
     border-radius: 10px;
     color: #faf5ef;
-    background-color: #151e08;
+    background: linear-gradient(#6e763f, #3f4b15);
     cursor: pointer;
     align-items: center;
     font-size: 14px;
@@ -324,7 +324,7 @@ body.dark hr{
 }
 
 body.dark #btn-voltar{
-    background-color: #faf5ef;
+    background: linear-gradient(#faf5ef, #f4efe6);
     color: #000000;
 }
 
